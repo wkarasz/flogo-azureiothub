@@ -58,7 +58,7 @@ func TestEval(t *testing.T) {
 
 	//check result attr
 	result := tc.GetOutput("result")
-	status := tc.GetOutput("status")
+	//status := tc.GetOutput("status")
 	assert.Equal(t, result, "Successful Response")
 	assert.Equal(t, result, "200 Ok")
 
