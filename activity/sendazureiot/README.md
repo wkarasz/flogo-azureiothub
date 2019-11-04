@@ -4,11 +4,11 @@ This activity provides your Flogo app the ability to send message to the Azure I
 ## Installation
 
 ```bash
-flogo install github.com/pradyuz3rocool/flogo-workspace/activity/sendazureiot
+flogo install github.com/wkarasz/flogo-azureiothub/activity/sendazureiot
 ```
 Link for flogo web:
 ```
-https://github.com/pradyuz3rocool/flogo-workspace/activity/sendazureiot
+https://github.com/wkarasz/flogo-azureiothub/activity/sendazureiot
 ```
 
 ## Schema
