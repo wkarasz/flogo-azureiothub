@@ -52,7 +52,7 @@ func TestEval(t *testing.T) {
 
 	tc.SetInput("connectionString", "HostName=HomeAutoHub.azure-devices.net;DeviceId=raspi;SharedAccessKey=IHx8ac6Bad4vHbv4I0HiJkhgeCNZhuzQdnllCAMSR+o=")
 	tc.SetInput("message", "Testing")
-	tc.SetInpu("deviceID", "raspi")
+	tc.SetInput("deviceID", "raspi")
 
 	act.Eval(tc)
 
